@@ -1,0 +1,32 @@
+export interface IBio {
+  id:                number;
+  timestamp:         String;
+  attention:         number;
+  meditation:        number;
+  theta:             number;
+  delta:             number;
+  low_alpha:         number;
+  high_alpha:        number;
+  low_beta:          number;
+  high_beta:         number;
+  low_gamma:         number;
+  mid_gamma:         number;
+  poor_signal:       number;
+  blink_strength:    number;
+  IBI:               number;
+  BPM:               number;
+  CVNN:              number;
+  SDNN:              number;
+  RMSSD:             number;
+  SDNN_over_RMSSD:   number;
+  pNN10:             number;
+  pNN20:             number;
+  pNN30:             number;
+  pNN40:             number;
+  pNN50:             number;
+  LF:                number;
+  HF:                number;
+  LF_over_HF:        number;
+  stimu_num:         number;
+  videoSec:          number;
+}
